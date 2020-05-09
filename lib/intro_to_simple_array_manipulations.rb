@@ -11,10 +11,7 @@ def using_pop (a)
   a.pop 
 end 
 
-def pop_with_args (a, n)
-  times.n do 
-    a.pop 
-  end 
-  pop
+def pop_with_args (a)
+  a.pop.pop 
 end 
   
